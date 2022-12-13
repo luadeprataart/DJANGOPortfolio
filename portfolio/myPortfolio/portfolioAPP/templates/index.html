@@ -1,1 +1,15 @@
-<h1>hello</h1>
+{% extends 'base.html' %}
+{% load static%}
+
+{% block 'head' %} 
+<link href="{% static 'portfolioAPP/css/index.css' %}" rel="stylesheet" />
+{% endblock %}
+
+{% block 'title' %} pag index  {% endblock %}
+
+{% block 'body' %}
+<h1>hello index</h1>
+ <a href="{% url 'contato' %}"> página contato </a>
+{% endblock %}
+
+

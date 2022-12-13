@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static%}
+
+{% block 'head' %} 
+
+<link href="{% static 'portfolioAPP/css/contato.css' %}" rel="stylesheet" />
+{% endblock %}
+
+{% block 'title' %} pag contato  {% endblock %}
+
+{% block 'body' %}
+<h1>hello contato</h1>
+<a href="{% url 'portfolio' %}"> página contato </a>
+{% endblock %}
