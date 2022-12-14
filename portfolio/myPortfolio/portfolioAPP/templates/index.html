@@ -3,13 +3,59 @@
 
 {% block 'head' %} 
 <link href="{% static 'portfolioAPP/css/index.css' %}" rel="stylesheet" />
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,800;1,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100&family=Poppins:wght@800&display=swap" rel="stylesheet">
 {% endblock %}
 
-{% block 'title' %} pag index  {% endblock %}
 
 {% block 'body' %}
-<h1>hello index</h1>
- <a href="{% url 'contato' %}"> página contato </a>
+<div>
+<!-- ME -->
+<div id="divME">
+<div id="div1ME">
+
+    <!-- Text -->
+    <div id="divtextME">
+        <h1 style="font-family: M PLUS 1 Code, sans-serif;font-weight: 10; font-size:60px;">Hello, World!</h1>
+        <h2 style="font-family: Poppins, sans-serif;font-weight: 800; font-size:40px;">Eu sou a <span class="name" style="color: #EE7094;">Ana Julia</span></h2>
+        <h2 style="font-family: Poppins, sans-serif;font-weight: 800; color: #C8E686; font-size:30px;">Desenvolvedora de Firmware/Hardware</h2>
+        <p class="i-description" style="font-size:20px;">Amo enfrentar desafios e desenvolver soluções criativas para resolver problemas! Sou uma pessoa dedicada, organizada e curiosa. Busco sempre dar o melhor de mim para tudo o que faço e não tenho medo de novos desafios!</p>
+    </div>
+
+    <!-- Arrow -->
+    <div class="arrow">  
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-mouse2-fill" viewBox="0 0 16 16">
+            <path d="M7.5.026C4.958.286 3 2.515 3 5.188V5.5h4.5V.026zm1 0V5.5H13v-.312C13 2.515 11.042.286 8.5.026zM13 6.5H3v4.313C3 13.658 5.22 16 8 16s5-2.342 5-5.188V6.5z"/>
+        </svg>  
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-arrow-down-up" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M11.5 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L11 2.707V14.5a.5.5 0 0 0 .5.5zm-7-14a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L4 13.293V1.5a.5.5 0 0 1 .5-.5z"/>
+        </svg>
+    </div>
+
+    <!-- Shapes -->
+    <div class='triangulo'></div>
+    <div class='triangulo-borda'></div>
+
+</div>
+
+<div  id="div2ME">
+    <span class = "circle-image">
+         <!--<img src="{% static '/portfolioAPP/img/me.jpg' %}">-->
+        <img src="https://media-exp1.licdn.com/dms/image/D4D03AQHDEKeooKJsRA/profile-displayphoto-shrink_800_800/0/1670080496141?e=1676505600&v=beta&t=bJAJXvRQL5b5RjU1gdQjq0BqQUwWbIj28Yswp1hfGM0" alt="">
+    </span>
+</div>
+</div>
+<!-- ME -->
+
+
+<!-- ABOUT ME -->
+<div id="divaboutME">
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+</div>
+<!-- ABOUT ME -->
+
+</div>
+
 {% endblock %}
 
 
