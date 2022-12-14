@@ -2,12 +2,21 @@ body{
     background-color: #3E3042;
 }
 
+p{
+    font-size: 20px;
+}
+
+li{
+    font-size: 20px;
+    margin: 15px;
+    color: #3E3042;
+}
+
 #divME{
     display: flex;
 }
 #div1ME {
     max-width: 50%;
-    max-block-size: ;
     max-height: 20%;
     max-block-size: 920px;
     writing-mode: horizontal-tb;
@@ -78,7 +87,46 @@ body{
     align-items: end;
     margin: 3%;
     margin-top: 50%;
+  }
 
+
+
+
+  #divaboutME{
+    margin: 3%;
+    color: white;
+    display: flex;
+  }
+  #divaboutME h2{
+    font-family:M PLUS 1 Code, sans-serif;
+    font-weight: 10; 
+    font-size:40px;
+  }
+  #divhab{
+    max-width: 50%;
+  }
+  #divtextaboutME{
+    max-width: 50%;
+    margin-left: 10%;
+  }
+  .work{
+    background-color: #18cfbc;
+    max-width: 90%;
+    border-radius: 5px;
+    border: solid;
+    box-shadow: 10px 20px #EE7094;
+  }
+  .work:hover{
+    background-color: #EE7094;
+    max-width: 90%;
+    border-radius: 7px;
+    border: solid;
+    box-shadow: 10px 20px #18cfbc;
+  }
+  .work img{
+    height: 60px;
+    width: 60px;
+    margin: 15px;
   }
 
 
