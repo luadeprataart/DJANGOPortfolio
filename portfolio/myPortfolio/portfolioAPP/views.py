@@ -7,3 +7,6 @@ def portfolio (request):
 
 def contato (request):
     return render(request, 'contato.html')
+
+def english (request):
+    return render(request, 'english.html')
